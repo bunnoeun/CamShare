@@ -25,4 +25,22 @@ if($result->num_rows>0){
 else{
     $url="http://localhost/CamShare/adminloginform.php";
     header("Location: ".$url);
+}else{
+    $url="http://localhost/CamShare/adminloginform.php";
+    header("Location: ".$url);
+}else{
+    $url="http://localhost/CamShare/adminloginform.php";
+    header("Location: ".$url);
+}else{
+    $url="http://localhost/CamShare/adminloginform.php";
+    header("Location: ".$url);
+}else{
+    $url="http://localhost/CamShare/adminloginform.php";
+    header("Location: ".$url);
+}else{
+    $url="http://localhost/CamShare/adminloginform.php";
+    header("Location: ".$url);
+}else{
+    $url="http://localhost/CamShare/adminloginform.php";
+    header("Location: ".$url);
 }
