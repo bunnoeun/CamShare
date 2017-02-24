@@ -1,0 +1,94 @@
+body{
+    margin-top: 0px;
+}
+#layout{
+    width: 1350px;
+    height: 100%;
+    background-color: antiquewhite;
+}
+#leftsite{
+    width: 250px;
+    height: 600px;
+    background-color: gray;
+    float: left;
+}
+#rightsite{
+    width: 1100px;
+    height: 600px;
+    background-color: olivedrab;
+    float: right;
+}
+#contents{
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    background: white;
+}
+/*Menu of server site*/
+.nav{
+    width: 260px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+.nav p{
+    margin:0;
+    padding:8px 2px 8px 17px;
+    color: #039;
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: bold;
+    background: #eee;
+}
+.nav ul{
+    margin: 8px 6px;
+    padding:0;
+}
+.nav ul li{
+    list-style: none;
+    height: 32px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial;
+    padding: 8px 4px 8px 32px;
+    background: url('../AdminSite/img/arrow.jpg') no-repeat 8px center;
+}
+.nav ul li a:hover{
+    background: #eef url('../AdminSite/img/arrow1.jpg') no-repeat 8px center;
+}
+#layout{margin-left:75px;}
+				p.linesHead{background-color:blue;
+						margin-top:0px;
+						padding:9px  9px;
+						color:white;
+			}
+/*User Admin*/
+#contents h1{
+    text-align: center;
+}
+.tbldata{
+    border-collapse: collapse;
+    margin:0;
+    width: 100%;
+    table-layout: fixed;
+}
+.tbldata td,th{
+    border: 1px solid #555;
+    padding: 8px 10px;
+    overflow: hidden;
+}
+th{
+
+}
+.tbldata tr:nth-child(2n){
+    background-color: #ff80aa;
+}
+.tbldata tr:nth-child(2n+3){
+    background-color: #4dff4d;
+}
